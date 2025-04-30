@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/ralph/Documents/Unreal Projects/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/ralph/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/IMC_PhantomPlayer.uasset",
+				"C:/Users/ralph/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/IA_Jump.uasset",
+				"C:/Users/ralph/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/IA_Slide.uasset",
+				"C:/Users/ralph/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/IA_Phase.uasset",
+				"C:/Users/ralph/Documents/Unreal Projects/MyProject/Content/StarterContent/Props/IA_Shoot.uasset"
+			]
+		}
+	]
+}
