@@ -1,0 +1,11 @@
+# Unreal Engine folders to ignore
+Saved/
+Intermediate/
+DerivedDataCache/
+Binaries/
+.vscode/
+*.sln
+*.user
+*.log
+*.opensdf
+*.VC.db
