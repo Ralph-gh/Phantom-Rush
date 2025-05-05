@@ -4243,3 +4243,75 @@ Current: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,4.50000
 [2025.05.05-19.57.02:881][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Props/BP_Character_Auto3
 [2025.05.05-19.57.02:882][138]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_Character_Auto3CEFCF14A46559D97F75050877F39C807.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/Autosaves/Game/StarterContent/Props/BP_Character_Auto3.uasset'
 [2025.05.05-19.57.02:884][138]LogFileHelpers: Auto-saving content packages took 0.019
+[2025.05.05-20.01.50:434][968]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70927.617188
+[2025.05.05-20.01.51:435][971]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.05-20.01.51:435][971]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70928.281250, Update Interval: 356.890778
+[2025.05.05-20.11.29:159][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.05.05-20.11.29:164][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.05-20.11.29:241][409]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Props/BP_Character] ([2] browsable assets)...
+[2025.05.05-20.11.29:241][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/BP_Character]
+[2025.05.05-20.11.29:248][409]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/BP_Character
+[2025.05.05-20.11.29:248][409]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_CharacterC30AA477430DFEF1B6891AAB030F68F4.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/StarterContent/Props/BP_Character.uasset'
+[2025.05.05-20.11.29:260][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.581 ms (total: 16.9 sec)
+[2025.05.05-20.11.29:350][409]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.05-20.11.29:350][409]LogContentValidation: Enabled validators:
+[2025.05.05-20.11.29:350][409]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.05-20.11.29:350][409]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.05-20.11.29:350][409]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.05-20.11.29:350][409]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.05-20.11.29:350][409]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.05-20.11.29:350][409]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.05-20.11.29:350][409]AssetCheck: /Game/StarterContent/Props/BP_Character Validating asset
+[2025.05.05-20.11.55:304][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71532.796875
+[2025.05.05-20.11.56:304][708]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.05-20.11.56:304][708]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71533.468750, Update Interval: 303.832520
+[2025.05.05-20.13.31:316][993]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 513...2b6
+[2025.05.05-20.13.31:316][993]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.7 RefreshExpires: 1.554e+07
+[2025.05.05-20.13.32:316][996]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 513...2b6 Access[Expires: 2025.05.05-22.13.32 Remaining: 7200.84] Refresh[Expires: 2025-11-01T18:15:11.031Z Remaining: 15544899.03] State: Valid
+[2025.05.05-20.16.36:177][821]LogSlate: Window 'Select Path' being destroyed
+[2025.05.05-20.16.38:555][821]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2025.05.05-20.16.38:581][821]LogActorComponent: UnregisterComponent: (/Game/Blueprints/BP_Platform.Default__BP_Platform_C:StaticMeshComponent0) Not registered. Aborting.
+[2025.05.05-20.16.38:606][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.05.05-20.16.38:663][821]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Platform.BP_Platform
+[2025.05.05-20.16.38:664][821]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.05.05-20.16.42:250][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.05-20.16.42:256][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level1/A/0U/OMLJZS99ZH8X49BWN7M903_Auto4
+[2025.05.05-20.16.42:256][970]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/OMLJZS99ZH8X49BWN7M903_Auto44334EB10449966121930BDAD2545225B.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/Autosaves/Game/__ExternalActors__/Level1/A/0U/OMLJZS99ZH8X49BWN7M903_Auto4.uasset'
+[2025.05.05-20.16.42:257][970]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.053
+[2025.05.05-20.16.42:257][970]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2025.05.05-20.16.42:257][970]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Platform] ([2] browsable assets)...
+[2025.05.05-20.16.42:258][970]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.05.05-20.16.42:279][970]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Platform.BP_Platform]
+[2025.05.05-20.16.42:279][970]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.05.05-20.16.42:292][970]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/BP_Platform.BP_Platform_C]
+[2025.05.05-20.16.42:292][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Platform]
+[2025.05.05-20.16.42:295][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Platform_Auto4
+[2025.05.05-20.16.42:295][970]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_Platform_Auto4D5D5189B4E2B9793E0CBED9FC914EC6E.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/Autosaves/Game/Blueprints/BP_Platform_Auto4.uasset'
+[2025.05.05-20.16.42:297][970]LogFileHelpers: Auto-saving content packages took 0.040
+[2025.05.05-20.17.05:104][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.05-20.17.05:110][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.05-20.17.05:207][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.05-20.17.05:230][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.05-20.17.05:248][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.05-20.17.05:252][289]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level1/A/0U/OMLJZS99ZH8X49BWN7M903
+[2025.05.05-20.17.05:252][289]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/OMLJZS99ZH8X49BWN7M903E6C870A048A8E934949DC1AA85EA0529.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/__ExternalActors__/Level1/A/0U/OMLJZS99ZH8X49BWN7M903.uasset'
+[2025.05.05-20.17.05:254][289]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Platform] ([2] browsable assets)...
+[2025.05.05-20.17.05:254][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Platform]
+[2025.05.05-20.17.05:254][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Platform" FILE="../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/Blueprints/BP_Platform.uasset" SILENT=true
+[2025.05.05-20.17.05:257][289]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Platform
+[2025.05.05-20.17.05:257][289]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_PlatformB41731904ED18D01D9CF8DAD64A55294.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/Blueprints/BP_Platform.uasset'
+[2025.05.05-20.17.05:276][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.360 ms (total: 17.1 sec)
+[2025.05.05-20.17.05:369][289]LogContentValidation: Display: Starting to validate 2 assets
+[2025.05.05-20.17.05:369][289]LogContentValidation: Enabled validators:
+[2025.05.05-20.17.05:369][289]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.05-20.17.05:369][289]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.05-20.17.05:369][289]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.05-20.17.05:369][289]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.05-20.17.05:369][289]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.05-20.17.05:369][289]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.05-20.17.05:369][289]AssetCheck: /Game/Level1 Validating asset
+[2025.05.05-20.17.05:370][289]AssetCheck: /Game/Blueprints/BP_Platform Validating asset
+[2025.05.05-20.17.44:929][570]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71879.039062
+[2025.05.05-20.17.45:013][575]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.05-20.17.45:013][575]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71879.109375, Update Interval: 326.139099
+[2025.05.05-20.18.58:194][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
