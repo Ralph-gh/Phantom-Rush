@@ -10708,3 +10708,1199 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.13-04.18.02:225][160]AssetCheck: /Game/StarterContent/Props/BP_Character Validating asset
 [2025.06.13-04.18.02:225][160]AssetCheck: /Game/Blueprints/Shooting/BP_Bullet Validating asset
 [2025.06.13-04.18.28:705][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.06.13-04.20.42:711][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.20.42:718][787]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.20.42:719][787]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.20.42:724][787]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 5.105 ms (total: 297.909 ms)
+[2025.06.13-04.20.42:724][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.20.42:748][787]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.20.42:756][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008505s)
+[2025.06.13-04.20.42:756][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.008559s)
+[2025.06.13-04.20.42:775][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.06.13-04.20.42:779][787]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.20.42:781][787]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.20.42:781][787]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.20.42:781][787]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.20.42:781][787]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.20.42:787][787]LogWorldPartition: Display: WorldPartition initialize took 6.342 ms (total: 1.39 sec)
+[2025.06.13-04.20.42:787][787]LogPlayLevel: PIE: World Init took: (0.008203s)
+[2025.06.13-04.20.42:788][787]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.20.42:788][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.20.42:788][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.20.42:788][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.20.42:788][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.20.42:788][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.20.42:790][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.20.42:807][787]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.20.42:808][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.20.42:808][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.20.42:808][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.20.42:808][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2025.06.13-04.20.42:808][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2025.06.13-04.20.42:811][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2025.06.13-04.20.42:811][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2025.06.13-04.20.42:811][787]LogInit: FAudioDevice initialized with ID 51.
+[2025.06.13-04.20.42:811][787]LogAudio: Display: Audio Device (ID: 51) registered with world 'Level1'.
+[2025.06.13-04.20.42:811][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2025.06.13-04.20.42:815][787]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.20.42:816][787]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.20.42
+[2025.06.13-04.20.42:816][787]LogWorld: Bringing up level for play took: 0.001594
+[2025.06.13-04.20.42:819][787]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2025.06.13-04.20.42:826][787]LogStreaming: Display: FlushAsyncLoading(4656,4655,4654,4653,4652,4651,4650,4649,4648,4647,4646,4645,4644,4643,4642,4641,4640,4639,4638,4637,4636,4635,4634,4633,4632,4631,4630,4629,4628,4627,4626,4625,4624,4623,4622,4621,4620,4617,4618,4619,4613,4614,4615,4616,4612,4608,4609,4610,4611,4607,4606,4605): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.20.43:192][787]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.20.43:192][787]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.20.43:193][787]PIE: Server logged in
+[2025.06.13-04.20.43:194][787]PIE: Play in editor total start time 0.475 seconds.
+[2025.06.13-04.20.43:236][788]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.20.43:236][788]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.20.43:236][788]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.20.43:236][788]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064560 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2025.06.13-04.20.47:815][ 60]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.20.52:816][360]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.20.57:817][660]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.02:818][960]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.05:435][117]LogBlueprintUserMessages: [BP_Pickup1_C_3] Overlap Happened
+[2025.06.13-04.21.07:819][260]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.12:822][560]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.15:447][717]LogBlueprintUserMessages: [BP_Pickup1_C_5] Overlap Happened
+[2025.06.13-04.21.17:816][859]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.22:816][159]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.27:816][459]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.32:819][759]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.37:825][ 59]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.40:458][217]LogBlueprintUserMessages: [BP_Pickup1_C_10] Overlap Happened
+[2025.06.13-04.21.41:426][275]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.21.41:427][275]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.21.41:427][275]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.21.41:427][275]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.21.41:438][275]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.21.41:440][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.21.41:440][275]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.21.41:503][275]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.21.41:515][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.06.13-04.21.41:522][275]LogStreaming: Display: FlushAsyncLoading(4663): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.21.41:552][275]LogAudio: Display: Audio Device (ID: 51) registered with world 'EndGame'.
+[2025.06.13-04.21.41:552][275]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.21.41:554][275]LogPlayLevel: PIE: World Init took: (0.002010s)
+[2025.06.13-04.21.41:554][275]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.21.41:554][275]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.21.41
+[2025.06.13-04.21.41:555][275]LogWorld: Bringing up level for play took: 0.000752
+[2025.06.13-04.21.41:555][275]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.21.41:559][275]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.21.41:559][275]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.21.41:559][275]LogLoad: Took 0.132736 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.21.41:559][275]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.21.41:621][279]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.21.42:459][329]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level1"
+[2025.06.13-04.21.42:459][329]LogNet: Browse: /Game/Level1
+[2025.06.13-04.21.42:459][329]LogLoad: LoadMap: /Game/Level1
+[2025.06.13-04.21.42:459][329]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.21.42:461][329]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.21.42:461][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.21.42:480][329]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.21.42:482][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.06.13-04.21.42:486][329]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.21.42:494][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008947s)
+[2025.06.13-04.21.42:494][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.009007s)
+[2025.06.13-04.21.42:494][329]LogAudio: Display: Audio Device (ID: 51) registered with world 'Level1'.
+[2025.06.13-04.21.42:494][329]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.21.42:496][329]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.21.42:496][329]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.21.42:496][329]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.21.42:496][329]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.21.42:503][329]LogWorldPartition: Display: WorldPartition initialize took 7.376 ms (total: 1.40 sec)
+[2025.06.13-04.21.42:504][329]LogPlayLevel: PIE: World Init took: (0.009142s)
+[2025.06.13-04.21.42:504][329]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.21.42:505][329]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.21.42
+[2025.06.13-04.21.42:505][329]LogWorld: Bringing up level for play took: 0.001343
+[2025.06.13-04.21.42:512][329]LogStreaming: Display: FlushAsyncLoading(4715,4714,4713,4712,4711,4710,4709,4708,4707,4706,4705,4704,4703,4702,4701,4700,4699,4698,4697,4696,4695,4694,4693,4692,4691,4690,4689,4688,4687,4686,4685,4684,4683,4682,4681,4680,4679,4676,4677,4678,4672,4673,4674,4675,4671,4667,4668,4669,4670,4666,4665,4664): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.21.42:703][329]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.21.42:703][329]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.21.42:703][329]LogLoad: Took 0.244225 seconds to LoadMap(/Game/UEDPIE_0_Level1)
+[2025.06.13-04.21.42:703][329]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_Level1
+[2025.06.13-04.21.47:466][614]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.52:465][913]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.21.55:047][ 68]LogBlueprintUserMessages: [BP_Pickup1_C_1] Overlap Happened
+[2025.06.13-04.21.57:466][213]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.02:468][513]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.07:464][812]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.09:398][928]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.22.09:398][928]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.22.09:398][928]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.22.09:399][928]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.22.09:411][928]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.22.09:412][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.22.09:412][928]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.22.09:478][928]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.22.09:488][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.06.13-04.22.09:494][928]LogStreaming: Display: FlushAsyncLoading(4720): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.22.09:518][928]LogAudio: Display: Audio Device (ID: 51) registered with world 'EndGame'.
+[2025.06.13-04.22.09:518][928]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.22.09:520][928]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2025.06.13-04.22.09:520][928]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.22.09:521][928]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.22.09
+[2025.06.13-04.22.09:521][928]LogWorld: Bringing up level for play took: 0.000591
+[2025.06.13-04.22.09:521][928]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.22.09:524][928]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.22.09:524][928]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.22.09:524][928]LogLoad: Took 0.126029 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.22.09:524][928]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.22.09:586][932]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.22.11:721][ 59]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level1"
+[2025.06.13-04.22.11:721][ 59]LogNet: Browse: /Game/Level1
+[2025.06.13-04.22.11:721][ 59]LogLoad: LoadMap: /Game/Level1
+[2025.06.13-04.22.11:721][ 59]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.22.11:723][ 59]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.22.11:723][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.22.11:745][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.22.11:748][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.13-04.22.11:752][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.22.11:761][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009176s)
+[2025.06.13-04.22.11:761][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.009238s)
+[2025.06.13-04.22.11:761][ 59]LogAudio: Display: Audio Device (ID: 51) registered with world 'Level1'.
+[2025.06.13-04.22.11:761][ 59]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.22.11:762][ 59]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.22.11:762][ 59]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.22.11:762][ 59]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.22.11:762][ 59]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.22.11:771][ 59]LogWorldPartition: Display: WorldPartition initialize took 8.572 ms (total: 1.41 sec)
+[2025.06.13-04.22.11:771][ 59]LogPlayLevel: PIE: World Init took: (0.010359s)
+[2025.06.13-04.22.11:771][ 59]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.22.11:773][ 59]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.22.11
+[2025.06.13-04.22.11:773][ 59]LogWorld: Bringing up level for play took: 0.001660
+[2025.06.13-04.22.11:780][ 59]LogStreaming: Display: FlushAsyncLoading(4772,4771,4770,4769,4768,4767,4766,4765,4764,4763,4762,4761,4760,4759,4758,4757,4756,4755,4754,4753,4752,4751,4750,4749,4748,4747,4746,4745,4744,4743,4742,4741,4740,4739,4738,4737,4736,4733,4734,4735,4729,4730,4731,4732,4728,4724,4725,4726,4727,4723,4722,4721): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.22.11:980][ 59]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.22.11:980][ 59]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.22.11:980][ 59]LogLoad: Took 0.258212 seconds to LoadMap(/Game/UEDPIE_0_Level1)
+[2025.06.13-04.22.11:980][ 59]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_Level1
+[2025.06.13-04.22.16:733][343]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.19:353][500]LogBlueprintUserMessages: [BP_Pickup1_C_0] Overlap Happened
+[2025.06.13-04.22.21:722][642]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.26:724][942]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.31:729][242]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.36:719][541]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.39:286][695]LogBlueprintUserMessages: [BP_Pickup1_C_4] Overlap Happened
+[2025.06.13-04.22.41:721][841]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.46:723][140]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.49:323][295]LogBlueprintUserMessages: [BP_Pickup1_C_6] Overlap Happened
+[2025.06.13-04.22.51:723][439]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.54:338][596]LogBlueprintUserMessages: [BP_Pickup1_C_7] Overlap Happened
+[2025.06.13-04.22.56:722][739]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.22.59:356][897]LogBlueprintUserMessages: [BP_Pickup1_C_8] Overlap Happened
+[2025.06.13-04.23.01:729][ 39]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.04:499][205]LogBlueprintUserMessages: [BP_Pickup1_C_9] Overlap Happened
+[2025.06.13-04.23.04:656][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11899.804688
+[2025.06.13-04.23.04:728][218]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.13-04.23.04:728][218]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11899.861328, Update Interval: 307.415985
+[2025.06.13-04.23.06:734][339]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.09:326][494]LogBlueprintUserMessages: [BP_Pickup1_C_10] Overlap Happened
+[2025.06.13-04.23.11:731][638]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.14:303][792]LogBlueprintUserMessages: [BP_Pickup1_C_11] Overlap Happened
+[2025.06.13-04.23.16:732][937]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.19:566][105]LogBlueprintUserMessages: [BP_Pickup1_C_12] Overlap Happened
+[2025.06.13-04.23.21:736][234]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.24:308][388]LogBlueprintUserMessages: [BP_Pickup1_C_13] Overlap Happened
+[2025.06.13-04.23.26:729][533]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.29:298][687]LogBlueprintUserMessages: [BP_Pickup1_C_14] Overlap Happened
+[2025.06.13-04.23.31:734][833]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.34:305][987]LogBlueprintUserMessages: [BP_Pickup1_C_15] Overlap Happened
+[2025.06.13-04.23.36:731][132]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.41:733][431]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.42:544][480]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.23.46:728][730]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.46:729][730]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.23.49:413][891]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.23.51:734][ 29]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.23.51:735][ 29]LogBlueprintUserMessages: [BP_Pickup1_C_19] Overlap Happened
+[2025.06.13-04.23.56:729][328]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.01:729][626]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.04:301][780]LogBlueprintUserMessages: [BP_Pickup1_C_21] Overlap Happened
+[2025.06.13-04.24.06:721][922]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.09:304][ 76]LogBlueprintUserMessages: [BP_Pickup1_C_22] Overlap Happened
+[2025.06.13-04.24.11:731][221]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.13:141][305]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.24.13:141][305]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.24.13:141][305]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.24.13:141][305]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.24.13:152][305]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.24.13:155][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.24.13:155][305]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.24.13:212][305]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.24.13:222][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.06.13-04.24.13:228][305]LogStreaming: Display: FlushAsyncLoading(4783): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.24.13:249][305]LogAudio: Display: Audio Device (ID: 51) registered with world 'EndGame'.
+[2025.06.13-04.24.13:249][305]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.24.13:251][305]LogPlayLevel: PIE: World Init took: (0.001946s)
+[2025.06.13-04.24.13:251][305]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.24.13:252][305]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.24.13
+[2025.06.13-04.24.13:252][305]LogWorld: Bringing up level for play took: 0.000667
+[2025.06.13-04.24.13:252][305]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.24.13:255][305]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.24.13:255][305]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.24.13:255][305]LogLoad: Took 0.114320 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.24.13:255][305]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.24.13:339][310]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.24.16:530][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.24.16:530][499]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.24.16:530][499]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.24.16:530][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.24.16:536][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.24.16:539][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.24.16:557][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.24.16:558][499]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2025.06.13-04.24.16:558][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2025.06.13-04.24.16:560][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2025.06.13-04.24.16:570][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.06.13-04.24.16:693][500]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.06.13-04.24.18:961][634]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.24.18:972][634]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.24.18:972][634]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.24.18:978][634]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 5.922 ms (total: 303.831 ms)
+[2025.06.13-04.24.18:978][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.24.18:978][634]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.24.18:989][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010730s)
+[2025.06.13-04.24.18:989][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.010777s)
+[2025.06.13-04.24.19:010][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.06.13-04.24.19:013][634]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.24.19:015][634]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.24.19:015][634]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.24.19:015][634]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.24.19:015][634]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.24.19:024][634]LogWorldPartition: Display: WorldPartition initialize took 8.465 ms (total: 1.41 sec)
+[2025.06.13-04.24.19:024][634]LogPlayLevel: PIE: World Init took: (0.010449s)
+[2025.06.13-04.24.19:025][634]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.24.19:025][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.24.19:025][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.24.19:025][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.24.19:025][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.24.19:025][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.24.19:028][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.24.19:045][634]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.24.19:045][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.24.19:045][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.24.19:045][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.24.19:046][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2025.06.13-04.24.19:046][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2025.06.13-04.24.19:050][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2025.06.13-04.24.19:050][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2025.06.13-04.24.19:050][634]LogInit: FAudioDevice initialized with ID 52.
+[2025.06.13-04.24.19:050][634]LogAudio: Display: Audio Device (ID: 52) registered with world 'Level1'.
+[2025.06.13-04.24.19:050][634]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2025.06.13-04.24.19:053][634]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.24.19:055][634]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.24.19
+[2025.06.13-04.24.19:055][634]LogWorld: Bringing up level for play took: 0.001878
+[2025.06.13-04.24.19:057][634]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2025.06.13-04.24.19:064][634]LogStreaming: Display: FlushAsyncLoading(4835,4834,4833,4832,4831,4830,4829,4828,4827,4826,4825,4824,4823,4822,4821,4820,4819,4818,4817,4816,4815,4814,4813,4812,4811,4810,4809,4808,4807,4806,4805,4804,4803,4802,4801,4800,4799,4796,4797,4798,4792,4793,4794,4795,4791,4787,4788,4789,4790,4786,4785,4784): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.24.19:285][634]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.24.19:285][634]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.24.19:286][634]PIE: Server logged in
+[2025.06.13-04.24.19:287][634]PIE: Play in editor total start time 0.315 seconds.
+[2025.06.13-04.24.19:335][635]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.24.19:335][635]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.24.19:335][635]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.24.23:974][911]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.28:979][211]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.33:966][510]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.38:969][810]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.43:529][ 83]LogBlueprintUserMessages: [BP_Pickup1_C_2] Overlap Happened
+[2025.06.13-04.24.43:543][ 84]LogBlueprintUserMessages: [BP_Pickup1_C_3] Overlap Happened
+[2025.06.13-04.24.43:977][110]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.46:899][285]LogBlueprintUserMessages: [BP_Pickup1_C_4] Overlap Happened
+[2025.06.13-04.24.48:967][409]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.24.50:301][489]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.24.50:301][489]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.24.50:301][489]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.24.50:301][489]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.24.50:318][489]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.24.50:318][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.24.50:319][489]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.24.50:374][489]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.24.50:383][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.13-04.24.50:390][489]LogStreaming: Display: FlushAsyncLoading(4838): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.24.50:423][489]LogAudio: Display: Audio Device (ID: 52) registered with world 'EndGame'.
+[2025.06.13-04.24.50:423][489]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.24.50:424][489]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2025.06.13-04.24.50:424][489]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.24.50:425][489]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.24.50
+[2025.06.13-04.24.50:425][489]LogWorld: Bringing up level for play took: 0.000591
+[2025.06.13-04.24.50:425][489]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.24.50:429][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.24.50:429][489]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.24.50:429][489]LogLoad: Took 0.127549 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.24.50:429][489]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.24.50:487][492]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.24.51:761][568]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level1"
+[2025.06.13-04.24.51:761][568]LogNet: Browse: /Game/Level1
+[2025.06.13-04.24.51:761][568]LogLoad: LoadMap: /Game/Level1
+[2025.06.13-04.24.51:761][568]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.24.51:762][568]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.24.51:762][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.24.51:782][568]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.24.51:784][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.06.13-04.24.51:787][568]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.24.51:798][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009905s)
+[2025.06.13-04.24.51:798][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.009967s)
+[2025.06.13-04.24.51:798][568]LogAudio: Display: Audio Device (ID: 52) registered with world 'Level1'.
+[2025.06.13-04.24.51:798][568]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.24.51:800][568]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.24.51:800][568]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.24.51:800][568]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.24.51:800][568]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.24.51:810][568]LogWorldPartition: Display: WorldPartition initialize took 10.590 ms (total: 1.42 sec)
+[2025.06.13-04.24.51:810][568]LogPlayLevel: PIE: World Init took: (0.012649s)
+[2025.06.13-04.24.51:810][568]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.24.51:812][568]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.24.51
+[2025.06.13-04.24.51:812][568]LogWorld: Bringing up level for play took: 0.001870
+[2025.06.13-04.24.51:821][568]LogStreaming: Display: FlushAsyncLoading(4890,4889,4888,4887,4886,4885,4884,4883,4882,4881,4880,4879,4878,4877,4876,4875,4874,4873,4872,4871,4870,4869,4868,4867,4866,4865,4864,4863,4862,4861,4860,4859,4858,4857,4856,4855,4854,4851,4852,4853,4847,4848,4849,4850,4846,4842,4843,4844,4845,4841,4840,4839): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.24.52:034][568]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.24.52:034][568]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.24.52:034][568]LogLoad: Took 0.274123 seconds to LoadMap(/Game/UEDPIE_0_Level1)
+[2025.06.13-04.24.52:034][568]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_Level1
+[2025.06.13-04.24.56:618][841]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.24.56:771][850]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.01:771][149]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.01:772][149]LogBlueprintUserMessages: [BP_Pickup1_C_1] Overlap Happened
+[2025.06.13-04.25.06:760][448]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.06:761][448]LogBlueprintUserMessages: [BP_Pickup1_C_2] Overlap Happened
+[2025.06.13-04.25.11:769][748]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.11:770][748]LogBlueprintUserMessages: [BP_Pickup1_C_3] Overlap Happened
+[2025.06.13-04.25.16:773][ 48]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.19:372][204]LogBlueprintUserMessages: [BP_Pickup1_C_4] Overlap Happened
+[2025.06.13-04.25.21:774][348]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.26:765][647]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.31:623][938]LogBlueprintUserMessages: [BP_Pickup1_C_5] Overlap Happened
+[2025.06.13-04.25.31:762][946]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.33:161][ 30]LogBlueprintUserMessages: [BP_Pickup1_C_6] Overlap Happened
+[2025.06.13-04.25.36:096][206]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.25.36:096][206]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.25.36:096][206]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.25.36:097][206]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.25.36:113][206]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.25.36:114][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.25.36:115][206]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.25.36:179][206]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.25.36:188][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.13-04.25.36:194][206]LogStreaming: Display: FlushAsyncLoading(4897): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.25.36:216][206]LogAudio: Display: Audio Device (ID: 52) registered with world 'EndGame'.
+[2025.06.13-04.25.36:216][206]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.25.36:217][206]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2025.06.13-04.25.36:217][206]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.25.36:218][206]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.25.36
+[2025.06.13-04.25.36:218][206]LogWorld: Bringing up level for play took: 0.000610
+[2025.06.13-04.25.36:218][206]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.25.36:221][206]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.25.36:221][206]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.25.36:221][206]LogLoad: Took 0.125677 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.25.36:221][206]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.25.36:282][210]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.25.37:492][282]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level1"
+[2025.06.13-04.25.37:492][282]LogNet: Browse: /Game/Level1
+[2025.06.13-04.25.37:492][282]LogLoad: LoadMap: /Game/Level1
+[2025.06.13-04.25.37:492][282]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.25.37:494][282]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.25.37:494][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.25.37:537][282]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.25.37:547][282]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2025.06.13-04.25.37:552][282]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.25.37:562][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010080s)
+[2025.06.13-04.25.37:562][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.010149s)
+[2025.06.13-04.25.37:562][282]LogAudio: Display: Audio Device (ID: 52) registered with world 'Level1'.
+[2025.06.13-04.25.37:562][282]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.25.37:563][282]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.25.37:563][282]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.25.37:563][282]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.25.37:563][282]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.25.37:572][282]LogWorldPartition: Display: WorldPartition initialize took 8.485 ms (total: 1.43 sec)
+[2025.06.13-04.25.37:572][282]LogPlayLevel: PIE: World Init took: (0.010145s)
+[2025.06.13-04.25.37:572][282]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.25.37:574][282]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.25.37
+[2025.06.13-04.25.37:575][282]LogWorld: Bringing up level for play took: 0.002147
+[2025.06.13-04.25.37:583][282]LogStreaming: Display: FlushAsyncLoading(4949,4948,4947,4946,4945,4944,4943,4942,4941,4940,4939,4938,4937,4936,4935,4934,4933,4932,4931,4930,4929,4928,4927,4926,4925,4924,4923,4922,4921,4920,4919,4918,4917,4916,4915,4914,4913,4910,4911,4912,4906,4907,4908,4909,4905,4901,4902,4903,4904,4900,4899,4898): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.25.37:791][282]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.25.37:791][282]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.25.37:791][282]LogLoad: Took 0.298792 seconds to LoadMap(/Game/UEDPIE_0_Level1)
+[2025.06.13-04.25.37:791][282]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_Level1
+[2025.06.13-04.25.42:503][563]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.47:496][862]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.52:504][162]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.57:500][460]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.25.57:515][461]LogBlueprintUserMessages: [BP_Pickup1_C_1] Overlap Happened
+[2025.06.13-04.26.02:490][759]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.07:499][ 59]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.12:494][358]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.17:499][657]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.22:497][956]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.27:491][255]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.32:491][554]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.37:493][853]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.38:924][939]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.42:498][153]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.43:394][207]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.44:614][280]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.45:214][316]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.45:648][342]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.47:498][452]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.49:668][582]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.50:368][624]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.26.52:494][751]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.26.57:493][ 49]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.02:496][348]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.06:723][601]LogBlueprintUserMessages: [BP_Pickup1_C_2] Overlap Happened
+[2025.06.13-04.27.06:790][605]LogBlueprintUserMessages: [BP_Pickup1_C_3] Overlap Happened
+[2025.06.13-04.27.07:241][632]LogBlueprintUserMessages: [BP_Pickup1_C_5] Overlap Happened
+[2025.06.13-04.27.07:492][647]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.07:493][647]LogBlueprintUserMessages: [BP_Pickup1_C_17] Overlap Happened
+[2025.06.13-04.27.07:809][666]LogBlueprintUserMessages: [BP_Pickup1_C_11] Overlap Happened
+[2025.06.13-04.27.07:824][667]LogBlueprintUserMessages: [BP_Pickup1_C_14] Overlap Happened
+[2025.06.13-04.27.07:824][667]LogBlueprintUserMessages: [BP_Pickup1_C_12] Overlap Happened
+[2025.06.13-04.27.07:824][667]LogBlueprintUserMessages: [BP_Pickup1_C_13] Overlap Happened
+[2025.06.13-04.27.07:874][670]LogBlueprintUserMessages: [BP_Pickup1_C_8] Overlap Happened
+[2025.06.13-04.27.12:496][946]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.15:388][119]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.27.17:508][246]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.20:174][405]LogBlueprintUserMessages: [BP_Pickup1_C_19] Overlap Happened
+[2025.06.13-04.27.22:494][544]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.22:494][544]LogBlueprintUserMessages: [BP_Pickup1_C_20] Overlap Happened
+[2025.06.13-04.27.25:066][698]LogBlueprintUserMessages: [BP_Pickup1_C_20] Overlap Happened
+[2025.06.13-04.27.27:496][843]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.32:500][141]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.37:496][440]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.42:496][738]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.45:087][892]LogBlueprintUserMessages: [BP_Pickup1_C_24] Overlap Happened
+[2025.06.13-04.27.47:500][ 36]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.50:147][194]LogBlueprintUserMessages: [BP_Pickup1_C_25] Overlap Happened
+[2025.06.13-04.27.52:504][335]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.27.57:497][631]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.00:078][785]LogBlueprintUserMessages: [BP_Pickup1_C_27] Overlap Happened
+[2025.06.13-04.28.01:098][845]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.28.02:505][929]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.07:492][226]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.12:499][524]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.15:155][682]LogBlueprintUserMessages: [BP_Pickup1_C_30] Overlap Happened
+[2025.06.13-04.28.17:500][821]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.20:061][974]LogBlueprintUserMessages: [BP_Pickup1_C_31] Overlap Happened
+[2025.06.13-04.28.22:499][118]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.25:269][282]LogBlueprintUserMessages: [BP_Pickup1_C_32] Overlap Happened
+[2025.06.13-04.28.27:497][414]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.32:498][711]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.35:065][864]LogBlueprintUserMessages: [BP_Pickup1_C_34] Overlap Happened
+[2025.06.13-04.28.37:497][  9]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.37:498][  9]LogBlueprintUserMessages: [BP_Pickup1_C_35] Overlap Happened
+[2025.06.13-04.28.40:096][163]LogBlueprintUserMessages: [BP_Pickup1_C_35] Overlap Happened
+[2025.06.13-04.28.42:504][306]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.45:074][458]LogBlueprintUserMessages: [BP_Pickup1_C_36] Overlap Happened
+[2025.06.13-04.28.47:495][601]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.52:506][898]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.28.55:111][ 52]LogBlueprintUserMessages: [BP_Pickup1_C_38] Overlap Happened
+[2025.06.13-04.28.57:506][193]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.29.02:504][489]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.29.03:311][536]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12258.421875
+[2025.06.13-04.29.03:379][540]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.13-04.29.03:379][541]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12258.478516, Update Interval: 319.653320
+[2025.06.13-04.29.07:505][784]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.29.10:090][937]LogBlueprintUserMessages: [BP_Pickup1_C_41] Overlap Happened
+[2025.06.13-04.29.11:587][ 25]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.29.12:505][ 79]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.29.16:808][331]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.30.07:279][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.30.07:279][213]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.30.07:283][213]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.30.07:287][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.30.07:287][213]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.30.07:293][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.30.07:299][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.30.07:326][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.30.07:327][213]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2025.06.13-04.30.07:327][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2025.06.13-04.30.07:331][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2025.06.13-04.30.07:345][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.06.13-04.30.07:446][214]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2025.06.13-04.30.25:266][264]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Obstacles/BP_Horizontal_Obstacle.BP_Horizontal_Obstacle
+[2025.06.13-04.30.25:266][264]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.06.13-04.30.52:585][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.06.13-04.30.53:563][805]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.30.53:571][805]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.30.53:571][805]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.30.53:578][805]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 7.105 ms (total: 310.936 ms)
+[2025.06.13-04.30.53:578][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.30.53:579][805]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.30.53:591][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011801s)
+[2025.06.13-04.30.53:591][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.011852s)
+[2025.06.13-04.30.53:608][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.06.13-04.30.53:612][805]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.30.53:614][805]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.30.53:614][805]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.30.53:614][805]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.30.53:614][805]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.30.53:627][805]LogWorldPartition: Display: WorldPartition initialize took 13.423 ms (total: 1.45 sec)
+[2025.06.13-04.30.53:627][805]LogPlayLevel: PIE: World Init took: (0.015362s)
+[2025.06.13-04.30.53:629][805]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.30.53:629][805]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.30.53:629][805]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.30.53:629][805]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.30.53:629][805]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.30.53:629][805]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.30.53:632][805]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.30.53:652][805]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.30.53:652][805]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.30.53:652][805]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.30.53:652][805]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.30.53:653][805]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2025.06.13-04.30.53:653][805]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2025.06.13-04.30.53:655][805]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2025.06.13-04.30.53:655][805]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2025.06.13-04.30.53:655][805]LogInit: FAudioDevice initialized with ID 53.
+[2025.06.13-04.30.53:655][805]LogAudio: Display: Audio Device (ID: 53) registered with world 'Level1'.
+[2025.06.13-04.30.53:655][805]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2025.06.13-04.30.53:665][805]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.30.53:668][805]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.30.53
+[2025.06.13-04.30.53:668][805]LogWorld: Bringing up level for play took: 0.002042
+[2025.06.13-04.30.53:672][805]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2025.06.13-04.30.53:679][805]LogStreaming: Display: FlushAsyncLoading(5011,5010,5009,5008,5007,5006,5005,5004,5003,5002,5001,5000,4999,4998,4997,4996,4995,4994,4993,4992,4991,4990,4989,4988,4987,4986,4985,4984,4983,4982,4981,4980,4979,4978,4977,4976,4975,4972,4973,4974,4968,4969,4970,4971,4967,4963,4964,4965,4966,4962,4961,4960): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.30.53:894][805]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.30.53:894][805]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.30.53:895][805]PIE: Server logged in
+[2025.06.13-04.30.53:896][805]PIE: Play in editor total start time 0.325 seconds.
+[2025.06.13-04.30.53:952][806]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.30.53:952][806]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.30.53:952][806]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.30.58:566][ 76]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.03:580][376]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.06:180][532]LogBlueprintUserMessages: [BP_Pickup1_C_1] Overlap Happened
+[2025.06.13-04.31.08:583][676]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.13:575][975]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.13:575][975]LogBlueprintUserMessages: [BP_Pickup1_C_3] Overlap Happened
+[2025.06.13-04.31.18:568][273]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.23:573][573]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.26:147][726]LogBlueprintUserMessages: [BP_Pickup1_C_5] Overlap Happened
+[2025.06.13-04.31.28:571][870]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.31:177][ 26]LogBlueprintUserMessages: [BP_Pickup1_C_6] Overlap Happened
+[2025.06.13-04.31.33:581][170]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.38:572][469]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.42:410][699]LogBlueprintUserMessages: [BP_Pickup1_C_8] Overlap Happened
+[2025.06.13-04.31.43:581][769]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.46:135][922]LogBlueprintUserMessages: [BP_Pickup1_C_9] Overlap Happened
+[2025.06.13-04.31.48:571][ 66]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.51:135][219]LogBlueprintUserMessages: [BP_Pickup1_C_10] Overlap Happened
+[2025.06.13-04.31.53:579][365]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.31.56:394][533]LogBlueprintUserMessages: [BP_Pickup1_C_11] Overlap Happened
+[2025.06.13-04.31.58:569][663]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.03:580][962]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.08:571][261]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.13:582][561]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.18:575][859]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.23:575][158]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.26:128][311]LogBlueprintUserMessages: [BP_Pickup1_C_17] Overlap Happened
+[2025.06.13-04.32.28:582][458]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.33:581][756]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.38:585][ 54]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.43:569][351]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.46:191][508]LogBlueprintUserMessages: [BP_Pickup1_C_21] Overlap Happened
+[2025.06.13-04.32.48:572][649]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.51:127][802]LogBlueprintUserMessages: [BP_Pickup1_C_22] Overlap Happened
+[2025.06.13-04.32.53:578][948]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.32.56:252][108]LogBlueprintUserMessages: [BP_Pickup1_C_23] Overlap Happened
+[2025.06.13-04.32.58:580][247]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.33.03:574][545]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.33.06:158][699]LogBlueprintUserMessages: [BP_Pickup1_C_25] Overlap Happened
+[2025.06.13-04.33.08:580][843]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.33.13:573][141]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.33.18:589][439]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.33.23:583][736]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.33.26:209][893]LogBlueprintUserMessages: [BP_Pickup1_C_29] Overlap Happened
+[2025.06.13-04.33.48:818][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.33.48:818][230]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.33.48:825][230]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.33.48:829][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.33.48:829][230]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.33.48:836][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.33.48:844][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.33.48:874][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.33.48:874][230]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2025.06.13-04.33.48:874][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2025.06.13-04.33.48:877][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2025.06.13-04.33.48:894][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.13-04.33.49:006][231]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2025.06.13-04.33.55:955][637]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.33.55:964][637]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.33.55:964][637]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.33.55:972][637]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 8.407 ms (total: 319.344 ms)
+[2025.06.13-04.33.55:973][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.33.55:974][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.33.55:990][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016632s)
+[2025.06.13-04.33.55:990][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.016710s)
+[2025.06.13-04.33.56:015][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2025.06.13-04.33.56:021][637]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.33.56:024][637]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.33.56:024][637]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.33.56:025][637]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.33.56:025][637]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.33.56:035][637]LogWorldPartition: Display: WorldPartition initialize took 10.931 ms (total: 1.46 sec)
+[2025.06.13-04.33.56:035][637]LogPlayLevel: PIE: World Init took: (0.014427s)
+[2025.06.13-04.33.56:037][637]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.33.56:037][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.33.56:037][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.33.56:037][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.33.56:037][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.33.56:037][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.33.56:041][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.33.56:062][637]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.33.56:062][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.33.56:062][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.33.56:062][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.33.56:063][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2025.06.13-04.33.56:063][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2025.06.13-04.33.56:067][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2025.06.13-04.33.56:067][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2025.06.13-04.33.56:067][637]LogInit: FAudioDevice initialized with ID 54.
+[2025.06.13-04.33.56:067][637]LogAudio: Display: Audio Device (ID: 54) registered with world 'Level1'.
+[2025.06.13-04.33.56:067][637]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2025.06.13-04.33.56:072][637]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.33.56:074][637]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.33.56
+[2025.06.13-04.33.56:074][637]LogWorld: Bringing up level for play took: 0.002111
+[2025.06.13-04.33.56:079][637]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2025.06.13-04.33.56:086][637]LogStreaming: Display: FlushAsyncLoading(5073,5072,5071,5070,5069,5068,5067,5066,5065,5064,5063,5062,5061,5060,5059,5058,5057,5056,5055,5054,5053,5052,5051,5050,5049,5048,5047,5046,5045,5044,5043,5042,5041,5040,5039,5038,5037,5034,5035,5036,5030,5031,5032,5033,5029,5025,5026,5027,5028,5024,5023,5022): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.33.56:323][637]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.33.56:323][637]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.33.56:324][637]PIE: Server logged in
+[2025.06.13-04.33.56:325][637]PIE: Play in editor total start time 0.362 seconds.
+[2025.06.13-04.33.56:402][638]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.33.56:402][638]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.33.56:402][638]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.33.56:402][638]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054715 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2025.06.13-04.33.57:389][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.33.57:389][691]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.33.57:405][691]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.33.57:406][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.33.57:406][691]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.33.57:411][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.33.57:415][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.33.57:439][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.33.57:440][691]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2025.06.13-04.33.57:440][691]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2025.06.13-04.33.57:443][691]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2025.06.13-04.33.57:455][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.06.13-04.33.57:542][692]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2025.06.13-04.34.07:902][286]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.34.07:910][286]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.34.07:911][286]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.34.07:917][286]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.314 ms (total: 325.659 ms)
+[2025.06.13-04.34.07:918][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.34.07:918][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.34.07:933][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015369s)
+[2025.06.13-04.34.07:933][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.015416s)
+[2025.06.13-04.34.07:955][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.06.13-04.34.07:959][286]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.34.07:961][286]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.34.07:961][286]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.34.07:961][286]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.34.07:961][286]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.34.07:969][286]LogWorldPartition: Display: WorldPartition initialize took 8.651 ms (total: 1.47 sec)
+[2025.06.13-04.34.07:969][286]LogPlayLevel: PIE: World Init took: (0.010568s)
+[2025.06.13-04.34.07:970][286]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.34.07:970][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.34.07:970][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.34.07:970][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.34.07:970][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.34.07:970][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.34.07:973][286]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.34.07:992][286]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.34.07:992][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.34.07:992][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.34.07:992][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.34.07:993][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2025.06.13-04.34.07:993][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2025.06.13-04.34.07:997][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2025.06.13-04.34.07:997][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2025.06.13-04.34.07:997][286]LogInit: FAudioDevice initialized with ID 55.
+[2025.06.13-04.34.07:997][286]LogAudio: Display: Audio Device (ID: 55) registered with world 'Level1'.
+[2025.06.13-04.34.07:997][286]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2025.06.13-04.34.08:000][286]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.34.08:002][286]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.34.08
+[2025.06.13-04.34.08:002][286]LogWorld: Bringing up level for play took: 0.001878
+[2025.06.13-04.34.08:004][286]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2025.06.13-04.34.08:021][286]LogStreaming: Display: FlushAsyncLoading(5117,5116,5115,5114,5113,5112,5111,5110,5109,5108,5107,5106,5105,5104,5103,5102,5101,5100,5099,5098,5097,5096,5095,5094,5093,5092,5091,5090,5089,5088,5087,5086,5085,5084,5083,5082,5081,5078,5079,5080,5077,5076,5075,5074): 44 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.34.08:241][286]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.34.08:242][286]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.34.08:242][286]PIE: Server logged in
+[2025.06.13-04.34.08:244][286]PIE: Play in editor total start time 0.333 seconds.
+[2025.06.13-04.34.08:295][287]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.34.08:295][287]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.34.08:295][287]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.34.12:912][558]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.15:552][715]LogBlueprintUserMessages: [BP_Pickup1_C_0] Overlap Happened
+[2025.06.13-04.34.17:919][856]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.22:919][154]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.27:921][451]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.32:907][747]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.35:469][900]LogBlueprintUserMessages: [BP_Pickup1_C_4] Overlap Happened
+[2025.06.13-04.34.37:908][ 45]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.40:524][200]LogBlueprintUserMessages: [BP_Pickup1_C_5] Overlap Happened
+[2025.06.13-04.34.42:906][342]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.45:521][498]LogBlueprintUserMessages: [BP_Pickup1_C_6] Overlap Happened
+[2025.06.13-04.34.47:914][640]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.50:474][792]LogBlueprintUserMessages: [BP_Pickup1_C_7] Overlap Happened
+[2025.06.13-04.34.52:920][937]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.34.55:798][107]LogBlueprintUserMessages: [BP_Pickup1_C_8] Overlap Happened
+[2025.06.13-04.34.57:913][233]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.00:534][389]LogBlueprintUserMessages: [BP_Pickup1_C_9] Overlap Happened
+[2025.06.13-04.35.02:913][530]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.07:910][828]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.10:761][995]LogBlueprintUserMessages: [BP_Pickup1_C_11] Overlap Happened
+[2025.06.13-04.35.12:911][123]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.13:775][174]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12628.791992
+[2025.06.13-04.35.13:862][180]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.13-04.35.13:862][180]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12628.859375, Update Interval: 308.353516
+[2025.06.13-04.35.17:915][421]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.22:911][719]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.27:905][ 18]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.32:908][316]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.37:919][615]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.42:912][912]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.42:913][912]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.35.42:913][912]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.35.42:913][912]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.35.43:691][958]LogBlueprintUserMessages: [BP_Pickup1_C_13] Overlap Happened
+[2025.06.13-04.35.43:706][959]LogBlueprintUserMessages: [BP_Pickup1_C_14] Overlap Happened
+[2025.06.13-04.35.43:776][963]LogBlueprintUserMessages: [BP_Pickup1_C_16] Overlap Happened
+[2025.06.13-04.35.44:235][989]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_524CP8ZGIDKOWC0TBR6469DGS took (less than) 20.81 ms
+[2025.06.13-04.35.45:685][ 76]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.35.47:913][208]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.52:923][506]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.35.57:915][802]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.02:911][100]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.07:906][396]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.12:919][691]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.17:915][988]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.18:208][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.36.18:209][  3]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.36.18:219][  3]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.36.18:222][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.36.18:222][  3]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.36.18:227][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.36.18:231][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.36.18:325][  3]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.36.18:326][  3]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2025.06.13-04.36.18:326][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2025.06.13-04.36.18:329][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2025.06.13-04.36.18:333][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.36.18:343][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.06.13-04.36.18:446][  4]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2025.06.13-04.36.43:204][343]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.06.13-04.36.44:542][396]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.36.44:549][396]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.36.44:549][396]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.36.44:557][396]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.806 ms (total: 332.465 ms)
+[2025.06.13-04.36.44:557][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.36.44:557][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.36.44:573][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016513s)
+[2025.06.13-04.36.44:573][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.016564s)
+[2025.06.13-04.36.44:598][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.06.13-04.36.44:609][396]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.36.44:611][396]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.36.44:611][396]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.36.44:611][396]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.36.44:611][396]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.36.44:619][396]LogWorldPartition: Display: WorldPartition initialize took 7.787 ms (total: 1.47 sec)
+[2025.06.13-04.36.44:619][396]LogPlayLevel: PIE: World Init took: (0.009574s)
+[2025.06.13-04.36.44:620][396]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.36.44:620][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.36.44:620][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.36.44:620][396]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.36.44:620][396]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.36.44:620][396]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.36.44:623][396]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.36.44:642][396]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.36.44:643][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.36.44:643][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.36.44:643][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.36.44:644][396]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2025.06.13-04.36.44:644][396]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2025.06.13-04.36.44:647][396]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2025.06.13-04.36.44:647][396]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2025.06.13-04.36.44:647][396]LogInit: FAudioDevice initialized with ID 56.
+[2025.06.13-04.36.44:647][396]LogAudio: Display: Audio Device (ID: 56) registered with world 'Level1'.
+[2025.06.13-04.36.44:647][396]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2025.06.13-04.36.44:656][396]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.36.44:660][396]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.36.44
+[2025.06.13-04.36.44:660][396]LogWorld: Bringing up level for play took: 0.003339
+[2025.06.13-04.36.44:663][396]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2025.06.13-04.36.44:679][396]LogStreaming: Display: FlushAsyncLoading(5169,5168,5167,5166,5165,5164,5163,5162,5161,5160,5159,5158,5157,5156,5155,5154,5153,5152,5151,5150,5149,5148,5147,5146,5145,5144,5143,5142,5141,5140,5139,5138,5137,5136,5135,5134,5133,5130,5131,5132,5129,5128,5127,5126): 44 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.36.44:906][396]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.36.44:906][396]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.36.44:908][396]PIE: Server logged in
+[2025.06.13-04.36.44:909][396]PIE: Play in editor total start time 0.359 seconds.
+[2025.06.13-04.36.44:964][397]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.36.44:964][397]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.36.44:964][397]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.36.44:965][397]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061469 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2025.06.13-04.36.49:551][660]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.54:561][958]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.36.56:632][ 82]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.36.56:632][ 82]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.36.56:632][ 82]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.36.56:632][ 82]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.36.56:647][ 82]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.36.56:648][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.36.56:648][ 82]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.36.56:720][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.36.56:728][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.06.13-04.36.56:737][ 82]LogStreaming: Display: FlushAsyncLoading(5172): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.36.56:761][ 82]LogAudio: Display: Audio Device (ID: 56) registered with world 'EndGame'.
+[2025.06.13-04.36.56:761][ 82]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.36.56:763][ 82]LogPlayLevel: PIE: World Init took: (0.001676s)
+[2025.06.13-04.36.56:763][ 82]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.36.56:763][ 82]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.36.56
+[2025.06.13-04.36.56:764][ 82]LogWorld: Bringing up level for play took: 0.000590
+[2025.06.13-04.36.56:764][ 82]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.36.56:767][ 82]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.36.56:767][ 82]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.36.56:767][ 82]LogLoad: Took 0.134584 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.36.56:767][ 82]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.36.56:811][ 85]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.36.57:739][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.36.57:739][139]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.36.57:739][139]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.36.57:739][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.36.57:744][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.36.57:748][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.36.57:772][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.36.57:772][139]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2025.06.13-04.36.57:773][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2025.06.13-04.36.57:775][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2025.06.13-04.36.57:783][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.06.13-04.36.57:883][140]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2025.06.13-04.37.01:122][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.06.13-04.37.01:129][321]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.13-04.37.01:167][321]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level1/0/AR/ZK1RZ8KPXRYWUW4AVMSEX9
+[2025.06.13-04.37.01:167][321]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/ZK1RZ8KPXRYWUW4AVMSEX9DD242211406DE15BBFA437BAD902D092.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/__ExternalActors__/Level1/0/AR/ZK1RZ8KPXRYWUW4AVMSEX9.uasset'
+[2025.06.13-04.37.01:170][321]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level1/5/SY/5HMDVKIXMJQRADOTTQBXMB
+[2025.06.13-04.37.01:170][321]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/5HMDVKIXMJQRADOTTQBXMBE2581CA540E148526530A9B7EEE26FBF.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/__ExternalActors__/Level1/5/SY/5HMDVKIXMJQRADOTTQBXMB.uasset'
+[2025.06.13-04.37.01:171][321]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Shooting/BP_Bullet] ([2] browsable assets)...
+[2025.06.13-04.37.01:212][321]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Shooting/BP_Bullet.BP_Bullet]
+[2025.06.13-04.37.01:212][321]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Shooting/BP_Bullet]
+[2025.06.13-04.37.01:216][321]LogSavePackage: Moving output files for package: /Game/Blueprints/Shooting/BP_Bullet
+[2025.06.13-04.37.01:217][321]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_BulletB144CA5C4678D78DDB2AFE89EFD1D206.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/Blueprints/Shooting/BP_Bullet.uasset'
+[2025.06.13-04.37.01:218][321]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Obstacles/BP_Horizontal_Obstacle] ([2] browsable assets)...
+[2025.06.13-04.37.01:225][321]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Obstacles/BP_Horizontal_Obstacle.BP_Horizontal_Obstacle]
+[2025.06.13-04.37.01:225][321]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Obstacles/BP_Horizontal_Obstacle]
+[2025.06.13-04.37.01:232][321]LogSavePackage: Moving output files for package: /Game/Blueprints/Obstacles/BP_Horizontal_Obstacle
+[2025.06.13-04.37.01:232][321]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_Horizontal_ObstacleB746F20B4F372ED0D756A1A173093B84.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/Blueprints/Obstacles/BP_Horizontal_Obstacle.uasset'
+[2025.06.13-04.37.01:252][321]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.507 ms (total: 496.182 ms)
+[2025.06.13-04.37.01:294][321]LogContentValidation: Display: Starting to validate 4 assets
+[2025.06.13-04.37.01:294][321]LogContentValidation: Enabled validators:
+[2025.06.13-04.37.01:294][321]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.13-04.37.01:294][321]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.13-04.37.01:295][321]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.13-04.37.01:295][321]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.13-04.37.01:295][321]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.13-04.37.01:295][321]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.13-04.37.01:295][321]AssetCheck: /Game/Level1 Validating asset
+[2025.06.13-04.37.01:295][321]AssetCheck: /Game/Blueprints/Shooting/BP_Bullet Validating asset
+[2025.06.13-04.37.01:295][321]AssetCheck: /Game/Blueprints/Obstacles/BP_Horizontal_Obstacle Validating asset
+[2025.06.13-04.39.46:705][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.06.13-04.39.48:279][161]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.39.48:288][161]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.39.48:288][161]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.39.48:296][161]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 8.301 ms (total: 340.767 ms)
+[2025.06.13-04.39.48:296][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.39.48:297][161]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.39.48:311][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013861s)
+[2025.06.13-04.39.48:311][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.013936s)
+[2025.06.13-04.39.48:335][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.06.13-04.39.48:342][161]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.39.48:344][161]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.39.48:344][161]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.39.48:345][161]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.39.48:345][161]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.39.48:356][161]LogWorldPartition: Display: WorldPartition initialize took 10.596 ms (total: 1.48 sec)
+[2025.06.13-04.39.48:356][161]LogPlayLevel: PIE: World Init took: (0.012881s)
+[2025.06.13-04.39.48:357][161]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.39.48:357][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.39.48:357][161]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.39.48:357][161]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.39.48:357][161]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.39.48:357][161]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.39.48:359][161]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.39.48:398][161]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.39.48:398][161]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.39.48:398][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.39.48:398][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.39.48:399][161]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2025.06.13-04.39.48:399][161]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2025.06.13-04.39.48:403][161]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2025.06.13-04.39.48:403][161]LogInit: FAudioDevice initialized with ID 57.
+[2025.06.13-04.39.48:403][161]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2025.06.13-04.39.48:403][161]LogAudio: Display: Audio Device (ID: 57) registered with world 'Level1'.
+[2025.06.13-04.39.48:403][161]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2025.06.13-04.39.48:413][161]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.39.48:415][161]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.39.48
+[2025.06.13-04.39.48:415][161]LogWorld: Bringing up level for play took: 0.002333
+[2025.06.13-04.39.48:419][161]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2025.06.13-04.39.48:425][161]LogStreaming: Display: FlushAsyncLoading(5224,5223,5222,5221,5220,5219,5218,5217,5216,5215,5214,5213,5212,5211,5210,5209,5208,5207,5206,5205,5204,5203,5202,5201,5200,5199,5198,5197,5196,5195,5194,5193,5192,5191,5190,5189,5188,5185,5186,5187,5181,5182,5183,5184,5180,5176,5177,5178,5179,5175,5174,5173): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.39.48:634][161]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.39.48:635][161]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.39.48:636][161]PIE: Server logged in
+[2025.06.13-04.39.48:637][161]PIE: Play in editor total start time 0.35 seconds.
+[2025.06.13-04.39.48:696][162]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.39.48:696][162]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.39.48:696][162]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.39.48:696][162]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.050253 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2025.06.13-04.39.53:295][431]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.39.58:293][730]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.03:294][ 29]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.08:286][328]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.10:011][431]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.40.10:012][431]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.40.10:012][431]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.40.10:012][431]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.40.10:027][431]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.40.10:028][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.40.10:028][431]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.40.10:085][431]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.40.10:094][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.06.13-04.40.10:102][431]LogStreaming: Display: FlushAsyncLoading(5228): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.40.10:124][431]LogAudio: Display: Audio Device (ID: 57) registered with world 'EndGame'.
+[2025.06.13-04.40.10:124][431]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.40.10:126][431]LogPlayLevel: PIE: World Init took: (0.001778s)
+[2025.06.13-04.40.10:126][431]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.40.10:126][431]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.40.10
+[2025.06.13-04.40.10:127][431]LogWorld: Bringing up level for play took: 0.000665
+[2025.06.13-04.40.10:127][431]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.40.10:129][431]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.40.10:129][431]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.40.10:129][431]LogLoad: Took 0.118712 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.40.10:130][431]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.40.10:207][436]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.40.11:298][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.40.11:298][499]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.40.11:298][499]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.40.11:299][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.40.11:303][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.40.11:307][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.40.11:332][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.40.11:332][499]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2025.06.13-04.40.11:332][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2025.06.13-04.40.11:336][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2025.06.13-04.40.11:342][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.06.13-04.40.11:430][500]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2025.06.13-04.40.30:489][538]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.13-04.40.30:499][538]LogContentBundle: [Level1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.06.13-04.40.30:500][538]LogWorldPartition: Display: GenerateStreaming for 'Level1' started...
+[2025.06.13-04.40.30:506][538]LogWorldPartition: Display: GenerateStreaming for 'Level1' took 6.133 ms (total: 346.900 ms)
+[2025.06.13-04.40.30:506][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.13-04.40.30:506][538]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.40.30:523][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016853s)
+[2025.06.13-04.40.30:523][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.016909s)
+[2025.06.13-04.40.30:548][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.13-04.40.30:553][538]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.40.30:555][538]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.40.30:555][538]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.40.30:555][538]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.40.30:555][538]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.40.30:565][538]LogWorldPartition: Display: WorldPartition initialize took 9.415 ms (total: 1.49 sec)
+[2025.06.13-04.40.30:565][538]LogPlayLevel: PIE: World Init took: (0.011285s)
+[2025.06.13-04.40.30:566][538]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.13-04.40.30:566][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.13-04.40.30:566][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.13-04.40.30:566][538]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.13-04.40.30:566][538]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.13-04.40.30:566][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.13-04.40.30:568][538]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.13-04.40.30:587][538]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.06.13-04.40.30:587][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.13-04.40.30:588][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.13-04.40.30:588][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.13-04.40.30:588][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2025.06.13-04.40.30:588][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2025.06.13-04.40.30:591][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2025.06.13-04.40.30:591][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2025.06.13-04.40.30:591][538]LogInit: FAudioDevice initialized with ID 58.
+[2025.06.13-04.40.30:591][538]LogAudio: Display: Audio Device (ID: 58) registered with world 'Level1'.
+[2025.06.13-04.40.30:591][538]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2025.06.13-04.40.30:602][538]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.40.30:604][538]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.40.30
+[2025.06.13-04.40.30:604][538]LogWorld: Bringing up level for play took: 0.001949
+[2025.06.13-04.40.30:607][538]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2025.06.13-04.40.30:615][538]LogStreaming: Display: FlushAsyncLoading(5280,5279,5278,5277,5276,5275,5274,5273,5272,5271,5270,5269,5268,5267,5266,5265,5264,5263,5262,5261,5260,5259,5258,5257,5256,5255,5254,5253,5252,5251,5250,5249,5248,5247,5246,5245,5244,5241,5242,5243,5237,5238,5239,5240,5236,5232,5233,5234,5235,5231,5230,5229): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.40.30:853][538]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.40.30:854][538]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.40.30:855][538]PIE: Server logged in
+[2025.06.13-04.40.30:855][538]PIE: Play in editor total start time 0.357 seconds.
+[2025.06.13-04.40.30:917][539]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.13-04.40.30:917][539]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.06.13-04.40.30:917][539]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.13-04.40.30:917][539]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057615 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2025.06.13-04.40.35:501][805]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.38:081][959]LogBlueprintUserMessages: [BP_Pickup1_C_0] Overlap Happened
+[2025.06.13-04.40.40:501][104]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.43:051][257]LogBlueprintUserMessages: [BP_Pickup1_C_1] Overlap Happened
+[2025.06.13-04.40.45:496][403]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.49:828][658]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/EndGame"
+[2025.06.13-04.40.49:828][658]LogNet: Browse: /Game/EndGame
+[2025.06.13-04.40.49:828][658]LogLoad: LoadMap: /Game/EndGame
+[2025.06.13-04.40.49:828][658]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.40.49:844][658]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.40.49:845][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.40.49:845][658]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.40.49:910][658]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.40.49:918][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.06.13-04.40.49:925][658]LogStreaming: Display: FlushAsyncLoading(5283): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.40.49:951][658]LogAudio: Display: Audio Device (ID: 58) registered with world 'EndGame'.
+[2025.06.13-04.40.49:951][658]LogChaosDD: Creating Chaos Debug Draw Scene for world EndGame
+[2025.06.13-04.40.49:953][658]LogPlayLevel: PIE: World Init took: (0.001776s)
+[2025.06.13-04.40.49:953][658]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.40.49:954][658]LogWorld: Bringing World /Game/UEDPIE_0_EndGame.EndGame up for play (max tick rate 60) at 2025.06.13-00.40.49
+[2025.06.13-04.40.49:954][658]LogWorld: Bringing up level for play took: 0.000620
+[2025.06.13-04.40.49:954][658]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.13-04.40.49:958][658]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2025.06.13-04.40.49:958][658]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.40.49:958][658]LogLoad: Took 0.129303 seconds to LoadMap(/Game/EndGame)
+[2025.06.13-04.40.49:958][658]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/EndGame
+[2025.06.13-04.40.50:019][662]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2025.06.13-04.40.50:908][715]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level1"
+[2025.06.13-04.40.50:908][715]LogNet: Browse: /Game/Level1
+[2025.06.13-04.40.50:909][715]LogLoad: LoadMap: /Game/Level1
+[2025.06.13-04.40.50:909][715]LogWorld: BeginTearingDown for /Game/UEDPIE_0_EndGame
+[2025.06.13-04.40.50:910][715]LogWorld: UWorld::CleanupWorld for EndGame, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.40.50:911][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.40.50:936][715]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.13-04.40.50:938][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.06.13-04.40.50:942][715]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2025.06.13-04.40.50:953][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010758s)
+[2025.06.13-04.40.50:953][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.010817s)
+[2025.06.13-04.40.50:953][715]LogAudio: Display: Audio Device (ID: 58) registered with world 'Level1'.
+[2025.06.13-04.40.50:953][715]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.06.13-04.40.50:955][715]LogWorldPartition: ULevel::OnLevelLoaded(Level1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.13-04.40.50:955][715]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.13-04.40.50:955][715]LogWorldPartition: UWorldPartition::Initialize : World = /Game/UEDPIE_0_Level1.Level1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.13-04.40.50:955][715]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.13-04.40.50:965][715]LogWorldPartition: Display: WorldPartition initialize took 10.151 ms (total: 1.50 sec)
+[2025.06.13-04.40.50:965][715]LogPlayLevel: PIE: World Init took: (0.012204s)
+[2025.06.13-04.40.50:965][715]LogLoad: Game class is 'GM_PhantomRush_C'
+[2025.06.13-04.40.50:967][715]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2025.06.13-00.40.50
+[2025.06.13-04.40.50:967][715]LogWorld: Bringing up level for play took: 0.001859
+[2025.06.13-04.40.50:976][715]LogStreaming: Display: FlushAsyncLoading(5335,5334,5333,5332,5331,5330,5329,5328,5327,5326,5325,5324,5323,5322,5321,5320,5319,5318,5317,5316,5315,5314,5313,5312,5311,5310,5309,5308,5307,5306,5305,5304,5303,5302,5301,5300,5299,5296,5297,5298,5292,5293,5294,5295,5291,5287,5288,5289,5290,5286,5285,5284): 52 QueuedPackages, 0 AsyncPackages
+[2025.06.13-04.40.51:205][715]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2025.06.13-04.40.51:205][715]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Spawning pickup
+[2025.06.13-04.40.51:205][715]LogLoad: Took 0.297076 seconds to LoadMap(/Game/UEDPIE_0_Level1)
+[2025.06.13-04.40.51:205][715]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_Level1
+[2025.06.13-04.40.55:905][995]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.40.59:856][231]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12974.930664
+[2025.06.13-04.40.59:925][235]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.13-04.40.59:925][235]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12974.980469, Update Interval: 307.071747
+[2025.06.13-04.41.00:916][295]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.05:921][595]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.08:600][755]LogBlueprintUserMessages: [BP_Pickup1_C_2] Overlap Happened
+[2025.06.13-04.41.10:918][893]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.13:490][ 46]LogBlueprintUserMessages: [BP_Pickup1_C_3] Overlap Happened
+[2025.06.13-04.41.15:916][190]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.20:893][488]LogSlate: Error: SlateUser [0] notified of a touch starting for pointer [0] without finding out it ever ended.
+[2025.06.13-04.41.20:912][489]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.25:917][788]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.30:911][ 87]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.30:912][ 87]LogBlueprintUserMessages: [BP_Pickup1_C_7] Overlap Happened
+[2025.06.13-04.41.35:918][385]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.38:500][539]LogBlueprintUserMessages: [BP_Pickup1_C_8] Overlap Happened
+[2025.06.13-04.41.40:907][682]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.45:912][980]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.48:566][136]LogBlueprintUserMessages: [BP_Pickup1_C_10] Overlap Happened
+[2025.06.13-04.41.50:906][276]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.41.53:477][430]LogBlueprintUserMessages: [BP_Pickup1_C_11] Overlap Happened
+[2025.06.13-04.41.55:919][576]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.00:917][875]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.05:920][175]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.08:515][330]LogBlueprintUserMessages: [BP_Pickup1_C_14] Overlap Happened
+[2025.06.13-04.42.10:920][474]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.13:592][633]LogBlueprintUserMessages: [BP_Pickup1_C_15] Overlap Happened
+[2025.06.13-04.42.15:918][772]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.18:497][926]LogBlueprintUserMessages: [BP_Pickup1_C_16] Overlap Happened
+[2025.06.13-04.42.20:911][ 70]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.23:473][223]LogBlueprintUserMessages: [BP_Pickup1_C_17] Overlap Happened
+[2025.06.13-04.42.25:918][369]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.28:669][532]LogBlueprintUserMessages: [BP_Pickup1_C_18] Overlap Happened
+[2025.06.13-04.42.30:914][665]LogBlueprintUserMessages: [BP_PickupSpawner_C_UAID_D0460C5547990F6C02_2001694199] Function called
+[2025.06.13-04.42.33:550][822]LogBlueprintUserMessages: [BP_Pickup1_C_19] Overlap Happened
+[2025.06.13-04.42.35:499][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.42.35:499][936]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2025.06.13-04.42.35:507][936]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.06.13-04.42.35:510][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.42.35:510][936]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/UEDPIE_0_Level1.Level1
+[2025.06.13-04.42.35:515][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.13-04.42.35:521][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.13-04.42.35:552][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.13-04.42.35:552][936]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2025.06.13-04.42.35:552][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2025.06.13-04.42.35:556][936]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2025.06.13-04.42.35:571][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.13-04.42.35:669][937]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2025.06.13-04.42.39:024][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.06.13-04.42.39:031][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.13-04.42.39:063][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/BP_Character] ([2] browsable assets)...
+[2025.06.13-04.42.39:101][127]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Props/BP_Character.BP_Character]
+[2025.06.13-04.42.39:101][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/BP_Character]
+[2025.06.13-04.42.39:137][127]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/BP_Character
+[2025.06.13-04.42.39:137][127]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_CharacterC80E2AE4455C9264C322B9AE061F86E5.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/StarterContent/Props/BP_Character.uasset'
+[2025.06.13-04.42.39:139][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Shooting/BP_Bullet] ([2] browsable assets)...
+[2025.06.13-04.42.39:139][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Shooting/BP_Bullet]
+[2025.06.13-04.42.39:142][127]LogSavePackage: Moving output files for package: /Game/Blueprints/Shooting/BP_Bullet
+[2025.06.13-04.42.39:143][127]LogSavePackage: Moving '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Saved/BP_Bullet1E2FDE5F4EE3920CF714D3B7B1F85356.tmp' to '../../../../../../Users/Ralph Ghnatios/Documents/Unreal Projects/Phantom-Rush 5.5/Content/Blueprints/Shooting/BP_Bullet.uasset'
+[2025.06.13-04.42.39:162][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.373 ms (total: 626.556 ms)
+[2025.06.13-04.42.39:198][127]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.13-04.42.39:199][127]LogContentValidation: Enabled validators:
+[2025.06.13-04.42.39:199][127]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.13-04.42.39:199][127]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.13-04.42.39:199][127]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.13-04.42.39:199][127]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.13-04.42.39:199][127]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.13-04.42.39:199][127]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.13-04.42.39:199][127]AssetCheck: /Game/StarterContent/Props/BP_Character Validating asset
+[2025.06.13-04.42.39:199][127]AssetCheck: /Game/Blueprints/Shooting/BP_Bullet Validating asset
